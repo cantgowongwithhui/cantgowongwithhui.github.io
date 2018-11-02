@@ -1,0 +1,240 @@
+.img1{
+  animation-name: fade;
+  animation-duration: 1s;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/wedding.png) center center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.img2{
+  animation-name: fade;
+  animation-duration: 1s;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/placeholder.jpg) 
+              center center / cover 
+              no-repeat 
+              fixed
+              #F7E7CE;
+  height: 100vh;
+  width: 100%;
+}
+
+.img3{
+  animation-name: fade;
+  animation-duration: 1s;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/wedding2.png) /*bg-image*/
+              center center / cover /*bg-pos,bg-size*/
+              no-repeat /*bg-repeat*/
+              /*bg-origin*/
+              /*bg-clip*/
+              fixed /*bg-attachment*/
+              #F7E7CE;/*bg-color*/
+  height: 100vh;
+  width: 100%;
+}
+
+.title-container{
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.titleX{
+  display: none;
+}
+
+.titleXX{
+  color: var(--white); 
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  font-weight: 500;
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+}
+
+.subtitleX{
+  display: none;
+}
+
+.subtitleXX{
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+  color: var(--white); 
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: Mali,cursive;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  padding: 10px 12px;
+  text-transform: uppercase;
+}
+
+.dateX{
+  display: none;
+}
+
+.dateXX{
+  animation-name: fadeInDown;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  border-radius: 50%;
+  color: var(--white); 
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.title{
+  color: var(--white); 
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.subtitle{
+  color: var(--white); 
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: Mali,cursive;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  padding: 10px 12px;
+  text-transform: uppercase;
+}
+
+.date{
+  border-radius: 50%;
+  color: var(--white); 
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+#clock span{  
+  color: var(--white); 
+  font-family: Mali, cursive;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 30px;
+}
+
+.prev{
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: var(--darkpink); 
+  border-radius: 30%;
+  color: var(--white); 
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.next{
+  position: absolute;
+  left: 94%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: var(--darkpink); 
+  border-radius: 30%;
+  color: var(--white); 
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.prev:hover, .next:hover {
+  background-color: var(--darkpinkhover); 
+}
+
+@keyframes fade{
+  0%{
+    opacity: .5;
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft{
+  0%{
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp{
+  0%{
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown{
+  0%{
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media screen and (min-width: 610px){
+  .titleXX{
+    font-size: 86px;
+  }
+  .title{
+    font-size: 86px;
+  }
+  .subtitleXX{
+    font-size: 20px;
+    letter-spacing: 9px;
+  }
+  .subtitle{
+    font-size: 20px;
+    letter-spacing: 9px;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .titleXX{
+    font-size: 100px;
+  }
+  .title{
+    font-size: 100px;
+  }
+  .subtitleXX{
+    font-size: 24px;
+    padding: 13px 40px;
+  }
+	.subtitle{
+    font-size: 24px;
+    padding: 13px 40px;
+	}
+}

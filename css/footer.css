@@ -1,0 +1,30 @@
+.footer {
+  align-items: center;
+  background-color: var(--champaign); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.footer1{
+  color: var(--darkpink); 
+  font-size: 16px;
+  font-family: 'Mali', cursive;
+}
+
+.footer2{
+  color: var(--darkpink); 
+  font-size: 14px;
+  font-family: 'Mali', cursive;
+}
+
+.thank{
+  font-size: 4em;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  background: linear-gradient(rgba(0,0,0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/46.jpg) center center no-repeat fixed;
+  background-size: cover;
+  color: var(--white); 
+  padding: 200px 0;
+}

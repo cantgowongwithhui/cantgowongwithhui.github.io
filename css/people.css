@@ -1,0 +1,125 @@
+.wedding-text-10{
+  background-color: #F7E7CE;
+  border-top: 1px solid #e78989;
+  border-bottom: 1px solid #e78989;
+  color: var(--titles); 
+  display: inline;
+  font-family: Great Vibes, cursive;
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.wrapz{
+  display: grid;
+  max-width: 1500px;
+  margin: 30px auto;
+  margin-bottom: 0;
+  width: 90%;
+  grid-gap: 2em;
+}
+
+.flip-card {
+  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 400px;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.front{
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.re{
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin: 0 auto;
+  height: 99px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: var(--champaign); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.first-tag-1{
+  color: black;
+  font-size: 24px;
+  font-family: 'Mali', cursive;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.second-tag-1{
+  color: #e49497;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.back {
+  transition: 0.3s;
+  backface-visibility: hidden;
+  border-radius: 25px;
+  height: 400px;
+  background: #333;
+  color: #fff;
+  overflow: hidden;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transform: rotateY(180deg) scale(0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.flip-card:hover .front {
+  transform: rotateY(180deg) scale(0.5);
+}
+
+.flip-card:hover .back {
+  transform: rotateY(360deg) scale(1);
+}
+
+.flip-card:hover .re{
+  transform: rotateY(180deg) scale(0.5);
+}
+
+@media (min-width: 600px){
+  .wrapz{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapz{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

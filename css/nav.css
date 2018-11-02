@@ -1,0 +1,73 @@
+.nav-wrap{
+  background-color: var(--grey); 
+  font-family: 'Mali', cursive;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.content-nav{
+  font-size: 20px; 
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: var(--darkpink); 
+}
+
+.logo{
+  margin-left: 20px; 
+  margin-top: 4.125px; 
+}
+
+.nav-hamburger {
+  position: absolute;
+  right: 20px;
+  top: 23.125px;
+  font-size: 25px;
+  cursor: pointer;
+  color: var(--darkpink); 
+}
+
+.content-nav li{
+  text-align: center;
+  margin: 15px auto;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .nav-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-nav {
+    display: flex;
+    margin-right: 30px;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    display: flex;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .nav-hamburger {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: var(--darkpinkhover); 
+  }
+}
