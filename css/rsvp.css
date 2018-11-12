@@ -1,0 +1,116 @@
+.form123 {
+  border-radius: 30px;
+  border: 2px solid var(--darkpink);
+  color: #666;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.info {padding: 10px;}
+
+.date_rsvp{
+  text-align: center;
+  padding: 0px;
+  margin: 5px 5px;
+}
+
+.details{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+  margin-top: 25px;
+  font-size: 1.5em;
+}
+
+.c_r{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.RSVP{
+  text-align: center;
+  padding: 0px;
+  margin: 5px 5px;
+  font-size: 2em;
+}
+
+.RSVP_2{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 100;
+  text-align: center;
+  padding: 0px;
+  margin: 5px 5px;
+  font-size: 1.5em;
+}
+.title_rsvp{
+  position: relative;
+  font-size: 2em;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+.title_rsvp::after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  border-bottom: 1px solid var(--darkpink);
+}
+
+.chapel{
+  text-align: center;
+  padding: 0px;
+  margin: 5px 5px;
+}
+.time_rsvp{
+  text-align: center;
+  margin: 5px 5px;
+  padding-bottom: 10px;
+}
+.location_rsvp{
+  position: relative;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.location_rsvp::after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  border-bottom: 1px solid var(--darkpink);
+}
+.button_rsvp{
+  display:block;
+  background-color: #F7E7CE; 
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: #e78989;
+  cursor: pointer;
+  font-family: 'Mali', cursive;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 25px auto;
+}
+
+.button_rsvp:hover{
+  background-color: #e78989; 
+  color: #F7E7CE;
+}

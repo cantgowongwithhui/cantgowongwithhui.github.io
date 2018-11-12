@@ -92,7 +92,7 @@ startTimer("clock", deadline);
 
 
 window.onscroll = function() {
-    scrollFunction(), stickyToggle()
+    scrollFunction();
 };
 
 function scrollFunction() {
