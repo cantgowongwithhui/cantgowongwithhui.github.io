@@ -31,6 +31,7 @@
 }
 
 .front{
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-size: cover;
   background-position: center center;
@@ -59,6 +60,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -79,6 +81,7 @@
 
 .back {
   transition: 0.3s;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 25px;
   height: 400px;
