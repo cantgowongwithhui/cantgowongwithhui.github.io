@@ -63,6 +63,7 @@
 }
 
 .figure-img-1{
+  vertical-align: top;
   object-fit: cover;
   width: 100%;
 }
