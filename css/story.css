@@ -10,7 +10,7 @@
 .love-story-title{  
   color: var(--titles); 
   display: inline;
-  font-family: Great Vibes, cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 65px;
   font-weight: 400;
   line-height: 80px;

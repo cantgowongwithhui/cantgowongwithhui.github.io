@@ -1,16 +1,36 @@
 *{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html{
-	overflow-x: hidden;
-	scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body{
-	overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+#to-top {
+  opacity: .7;
+  display: none;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 99;
+  border: none;
+  background: #414A59;
+  color: #F5F6F7;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#to-top:hover {
+  opacity: 1;
 }
 
 :root{
@@ -21,24 +41,4 @@ body{
   --white: #ffffff;
   --black: #000000;
   --titles: #282828;
-}
-
-#to-top {
-    opacity: .7;
-    display: none;
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    z-index: 99;
-    border: none;
-    background: #414A59;
-    color: #F5F6F7;
-    cursor: pointer;
-    padding: 12px;
-    border-radius: 6px;
-    font-size: 14px
-}
-
-#to-top:hover {
-    opacity: 1
 }
