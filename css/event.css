@@ -35,7 +35,6 @@
   align-items: center;
   background-color: #FAFAFA;
   border-radius: 25px;
-  margin-top: 45px;
 }
 
 .the-reception{
@@ -93,12 +92,18 @@
   height: 100%;
   border-radius: 25px;
   object-fit: cover;
+   vertical-align: top;
+}
+
+.margin{
+  margin-top:45px;
 }
 
 @media (min-width: 800px) {
   .wedding-event-wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 250px 250px;
     grid-gap: 2em;
     max-width: 1200px; 
     margin-left: auto;
