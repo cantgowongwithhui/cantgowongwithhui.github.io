@@ -5,7 +5,9 @@
   margin-top: 50px;
 }
 
-.love-story-title-center{text-align: center;}
+.love-story-title-center{
+  text-align: center;
+}
 
 .love-story-title{  
   color: var(--titles); 
@@ -30,12 +32,15 @@
   margin-top:20px;
 }
 
-.grid-wrapper{margin: 30px 15px;}
+.grid-wrapper{
+  margin: 30px 15px;
+}
 
 .grid-wrapper:nth-child(3){
   display: grid;
   grid-gap: 20px;
 }
+
 .the-story-wrapper{
   background-color: var(--champaign); 
   padding: 30px;
@@ -147,6 +152,7 @@
     top: -15px;
     z-index: 1;
   }
+  
   .left{text-align: left;}
 
   .figure-img-1{

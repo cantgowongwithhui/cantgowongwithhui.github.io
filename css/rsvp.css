@@ -1,4 +1,4 @@
-.form123 {
+.form123{
   border-radius: 30px;
   border: 2px solid var(--darkpink);
   color: #666;
@@ -9,7 +9,9 @@
   width: 90%;
 }
 
-.info {padding: 10px;}
+.info{ 
+  padding: 10px;
+}
 
 .date_rsvp{
   text-align: center;
@@ -48,6 +50,7 @@
   margin: 5px 5px;
   font-size: 1.5em;
 }
+
 .title_rsvp{
   position: relative;
   font-size: 2em;
@@ -56,6 +59,7 @@
   padding-right: 5px;
   text-align: center;
 }
+
 .title_rsvp::after{
   content: '';
   position: absolute;
@@ -70,11 +74,13 @@
   padding: 0px;
   margin: 5px 5px;
 }
+
 .time_rsvp{
   text-align: center;
   margin: 5px 5px;
   padding-bottom: 10px;
 }
+
 .location_rsvp{
   position: relative;
   padding-bottom: 25px;
@@ -91,6 +97,7 @@
   bottom: 0;
   border-bottom: 1px solid var(--darkpink);
 }
+
 .button_rsvp{
   display:block;
   background-color: #F7E7CE; 
