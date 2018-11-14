@@ -18,30 +18,31 @@
 }
 
 .text_4{
-  visibility:hidden;
+  visibility: hidden;
   position: absolute;
 }
 
 .column:hover .text_4{
   font-size: 50px;
   color: white;
-  visibility:visible;
+  visibility: visible;
   z-index: 999999;
-
 }
+
 .column:after {
   content: "";
-  position:absolute;
-  width:100%;
+  position: absolute;
+  width: 100%;
   height: 400px;
   top: 0;
   right: 0;
-  background:rgba(0,0,0,0.3);
-  opacity:0;
+  background: rgba(0,0,0,0.3);
+  opacity: 0;
   transition: all 0.5s;
 }
+
 .column:hover:after {
-  opacity:1;
+  opacity: 1;
 }
 
 @media (min-width: 600px){
