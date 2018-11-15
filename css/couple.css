@@ -43,6 +43,7 @@
   .main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 500px 500px;
     max-width: 1140px; 
     padding-right: 10px;
     padding-left: 10px;
