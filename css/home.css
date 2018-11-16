@@ -1,7 +1,7 @@
 .img1{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/home/1.JPG) center center no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/home/2.JPG) center bottom no-repeat fixed;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -10,8 +10,8 @@
 .img2{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/home/2.JPG) 
-              center center / cover 
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/home/1.JPG) 
+              center bottom / cover 
               no-repeat 
               fixed
               #F7E7CE;
@@ -22,8 +22,8 @@
 .img3{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/home/3.JPG) /*bg-image*/
-              center center / cover /*bg-pos,bg-size*/
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/home/3.JPG) /*bg-image*/
+              center bottom / cover /*bg-pos,bg-size*/
               no-repeat /*bg-repeat*/
               /*bg-origin*/
               /*bg-clip*/
