@@ -43,8 +43,8 @@
   .main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 500px 500px;
-    max-width: 1140px; 
+    grid-template-rows: 700px 700px;
+    max-width: 1080px;
     padding-right: 10px;
     padding-left: 10px;
     margin: 30px auto;
