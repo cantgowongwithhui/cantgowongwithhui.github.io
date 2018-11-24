@@ -1,17 +1,6 @@
-// // 1. Minimum time for preloader to load is 2.5 seconds (In case the DOM is loaded too quickly, the preloader will still have a chance to be shown)
-// // 2. Maximum time for preloader to load is based on how fast the DOM is loaded because the preloader will spin forever until the DOM has fully loaded because it hasn't reached line 8
-// // 3. For even clearer UI/UX design put an animation of "Loading..."
-// // Note: Don't use preloader for heavy sites
-
-// window.addEventListener('load',function(){  // The moment the page has loaded, show it, but... let the preloader run for 2.5seconds first, then show.
-//   setTimeout(showPage, 2500); 
-//   // playAnimation();
-// });
-
 window.onload = function() {
   setTimeout(showPage, 1); 
 }
-
 
 // Set preloader state to be transparent
 function showPage(){
