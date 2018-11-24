@@ -1,17 +1,26 @@
-.celebrate-love-wrapper-1{
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1080px;
-  padding-top: 100px;
-  padding-bottom: 175px;
+.celebrate-love-wrapper{
+  background: linear-gradient(rgba(0,0,0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/misc/flower_bouquet.jpg) center center no-repeat fixed;
+  background-size: cover;
+  border-radius: 50px;
+  color: var(--white); 
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 70px 0;
   position: relative;
-  border: 2px solid red;
 }
 
-.flower-border{
-  margin-top: 50px; 
-  position: absolute;
-  left: 50%;
-  transform: translate( -50%,-50%);
-  z-index: -100;
+.celebrate-text-top{
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.celebrate-text-bottom{
+  font-family: 'Great Vibes', cursive;
+  font-size: 75px;
+  line-height: 83px;
+  font-weight: 500;
+  text-align: center;
 }
