@@ -24,7 +24,7 @@ navBarToggle.addEventListener('click', function () {
 // NAV END
 
 // SLIDER BEGIN
-var slideIndex = 0;
+var slideIndex = 2;
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
