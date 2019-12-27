@@ -5,6 +5,7 @@
   height: 100%;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 30px;
   max-width: 1200px;
   width: 90%;
 }
@@ -16,7 +17,16 @@
 .date_rsvp{
   text-align: center;
   padding: 0px;
-  margin: 5px 5px;
+  margin: 10px 5px;
+  font-size: 1.5em;
+}
+
+.please_rsvp{
+  text-align: center;
+  padding: 0px;
+  margin-top: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5em;
 }
 
 .details{

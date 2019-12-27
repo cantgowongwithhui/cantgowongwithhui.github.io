@@ -24,8 +24,7 @@ navBarToggle.addEventListener('click', function () {
 // NAV END
 
 // SLIDER BEGIN
-var slideIndex = 1;
-showSlides(slideIndex);
+var slideIndex = 0;
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -49,7 +48,21 @@ function showSlides(n) {
 
   slides[slideIndex-1].style.display = "block";  
 }
-// SLIDER END
+//SLIDER END
+
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 3500); // Change image every 2 seconds
+}
 
 function updateTimer(deadline){
   var time = deadline - new Date();
