@@ -1,6 +1,6 @@
 .form{
   border-radius: 30px;
-  /*border: 2px solid var(--darkpink);*/
+  border: 2px solid var(--darkpink);
   color: #666;
   height: 100%;
   margin: 0 auto;
@@ -86,6 +86,24 @@
   padding-left: 5px;
   padding-right: 5px;
   text-align: center;
+}
+
+.title_rsvp_acco{
+  position: relative;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.title_rsvp_acco::after{
+  content: '';
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  border-bottom: 1px solid var(--darkpink);
 }
 
 .title_rsvp::after{
