@@ -93,7 +93,7 @@ function startTimer(id, deadline){
   }, 1000);
 }
 
-var deadline = new Date("July 04, 2020 0:00:00");
+var deadline = new Date("July 03, 2021 0:00:00");
 startTimer("clock", deadline);
 
 
