@@ -11,6 +11,7 @@ function showPage(){
 	document.getElementById('cute_kiss').classList.add('hidden'); //Picture of Kissing
   document.getElementById('titleX').classList.add('titleXX');
   document.getElementById('subtitleX').classList.add('subtitleXX');
+  document.getElementById('strikeX').classList.add('strikeXX');
   document.getElementById('dateX').classList.add('dateXX');
 };
 

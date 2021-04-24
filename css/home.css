@@ -73,6 +73,25 @@
   text-transform: uppercase;
 }
 
+.strikeX{
+  display: none;
+}
+
+.strikeXX{
+  animation-name: fadeInDown;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  border-radius: 50%;
+  color: var(--white); 
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  /*margin-bottom: 20px;*/
+  text-align: center;
+  width: 250px;
+  text-decoration: line-through;
+}
 .dateX{
   display: none;
 }
@@ -121,6 +140,19 @@
   margin-bottom: 20px;
   text-align: center;
   width: 250px;
+}
+
+.strike{
+  border-radius: 50%;
+  color: var(--white); 
+  font-family: 'Mali', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  /*margin-bottom: 20px;*/
+  text-align: center;
+  width: 250px;
+  text-decoration: line-through;
 }
 
 #clock span{  
